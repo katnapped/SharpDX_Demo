@@ -31,12 +31,6 @@ namespace Tutorial9
         [STAThread]
         static void Main()
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             //render form
             RenderForm form = new RenderForm();
             form.Text = "Tutorial 9: Normal Mapping";

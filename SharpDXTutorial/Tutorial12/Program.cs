@@ -54,12 +54,6 @@ namespace Tutorial12
         /// </summary>
         static void Main()
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             int repetition = (64 * 32) * (64 * 32);
             SharpComputeDevice<ResultData> computer = new SharpComputeDevice<ResultData>("../../HLSL.txt", "CS", repetition);
 

@@ -13,12 +13,6 @@ namespace Tutorial2
     {
         static void Main(string[] args)
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             //render form
             RenderForm form = new RenderForm();
             form.Text = "Tutorial 2: Init Device (press key from 1 to 8)";

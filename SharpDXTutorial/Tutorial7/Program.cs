@@ -29,12 +29,6 @@ namespace Tutorial7
         [STAThread]
         static void Main()
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             //render form
             RenderForm form = new RenderForm();
             form.Text = "Tutorial 7: Loading Obj File";

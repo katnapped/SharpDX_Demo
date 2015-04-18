@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpHelper", "SharpHelper\SharpHelper.csproj", "{EA6F422E-3D4F-499F-A76F-3DC366489387}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial01", "Tutorial1\Tutorial01.csproj", "{D0802ED9-DC65-44CD-9B17-DDE0C4EF21DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial02", "Tutorial2\Tutorial02.csproj", "{1F49222A-878F-4159-9E27-07DCF6050F6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial02 - Init Device", "Tutorial2\Tutorial02 - Init Device.csproj", "{1F49222A-878F-4159-9E27-07DCF6050F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial03", "Tutorial3\Tutorial03.csproj", "{80C644B0-405A-4235-A833-B9E585C6B5C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial03 - Font", "Tutorial3\Tutorial03 - Font.csproj", "{80C644B0-405A-4235-A833-B9E585C6B5C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial04", "Tutorial4\Tutorial04.csproj", "{4F87EC56-953C-4ED7-93EE-D63AA80F94CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial04 - Primitives", "Tutorial4\Tutorial04 - Primitives.csproj", "{4F87EC56-953C-4ED7-93EE-D63AA80F94CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial05", "Tutorial5\Tutorial05.csproj", "{CBB6B2E1-06AE-4C31-801E-65A33B01B1AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial05 - Texture", "Tutorial5\Tutorial05 - Texture.csproj", "{CBB6B2E1-06AE-4C31-801E-65A33B01B1AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial06", "Tutorial6\Tutorial06.csproj", "{F30A9E19-9809-4A2A-8814-219CEC80D637}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial06 - Rasterizer + Alphablending", "Tutorial6\Tutorial06 - Rasterizer + Alphablending.csproj", "{F30A9E19-9809-4A2A-8814-219CEC80D637}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial07", "Tutorial7\Tutorial07.csproj", "{52E499D2-7A5B-4379-ABEA-741666B7E741}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial07 - Loading Obj File", "Tutorial7\Tutorial07 - Loading Obj File.csproj", "{52E499D2-7A5B-4379-ABEA-741666B7E741}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial08", "Tutorial8\Tutorial08.csproj", "{E4320248-77FD-47EC-B5D7-B91446BC812F}"
 EndProject

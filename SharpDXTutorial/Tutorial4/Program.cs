@@ -21,12 +21,6 @@ namespace Tutorial4
         [STAThread]
         static void Main()
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             //Indices
             int[] indices = new int[] 
             { 

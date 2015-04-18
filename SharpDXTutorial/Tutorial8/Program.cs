@@ -29,12 +29,6 @@ namespace Tutorial8
         [STAThread]
         static void Main()
         {
-            if (!SharpDevice.IsDirectX11Supported())
-            {
-                System.Windows.Forms.MessageBox.Show("DirectX11 Not Supported");
-                return;
-            }
-
             int[] indices = Enumerable.Range(0, 1000).ToArray();
             List<Vector3> vertices = new List<Vector3>();
 

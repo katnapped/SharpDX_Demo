@@ -90,14 +90,21 @@ namespace SharpHelper
                 Usage = Usage.RenderTargetOutput
             };
 
-            FeatureLevel[] levels = new FeatureLevel[] { FeatureLevel.Level_11_0, FeatureLevel.Level_10_1, FeatureLevel.Level_10_0 };
+            FeatureLevel[] levels = new FeatureLevel[] { FeatureLevel.Level_11_0 };
 
             //create device and swapchain
             DeviceCreationFlags flag = DeviceCreationFlags.None;
             if (debug)
                 flag = DeviceCreationFlags.Debug;
 
-            Device11.CreateWithSwapChain(SharpDX.Direct3D.DriverType.Hardware, flag, levels, desc, out _device, out _swapchain);
+            if (IsDirectX11Supported())
+            {
+                Device11.CreateWithSwapChain(SharpDX.Direct3D.DriverType.Hardware, flag, levels, desc, out _device, out _swapchain);
+            }
+            else
+            {
+                Device11.CreateWithSwapChain(SharpDX.Direct3D.DriverType.Warp, flag, levels, desc, out _device, out _swapchain);
+            }
 
             //get context to device
             _deviceContext = Device.ImmediateContext;

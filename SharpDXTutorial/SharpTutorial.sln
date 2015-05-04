@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpHelper", "SharpHelper\SharpHelper.csproj", "{EA6F422E-3D4F-499F-A76F-3DC366489387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial01", "Tutorial1\Tutorial01.csproj", "{D0802ED9-DC65-44CD-9B17-DDE0C4EF21DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial01 - Enumeration", "Tutorial1\Tutorial01 - Enumeration.csproj", "{D0802ED9-DC65-44CD-9B17-DDE0C4EF21DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial02 - Init Device", "Tutorial2\Tutorial02 - Init Device.csproj", "{1F49222A-878F-4159-9E27-07DCF6050F6B}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial06 - Rasterizer + A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial07 - Loading Obj File", "Tutorial7\Tutorial07 - Loading Obj File.csproj", "{52E499D2-7A5B-4379-ABEA-741666B7E741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial08", "Tutorial8\Tutorial08.csproj", "{E4320248-77FD-47EC-B5D7-B91446BC812F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial08 - Geometry Shader", "Tutorial8\Tutorial08 - Geometry Shader.csproj", "{E4320248-77FD-47EC-B5D7-B91446BC812F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorialI1", "TutorialI1\TutorialI1.csproj", "{D2D47327-0C22-4E13-9366-01A56CB681A1}"
 EndProject

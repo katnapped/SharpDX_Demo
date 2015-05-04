@@ -69,7 +69,6 @@ namespace SharpHelper
         /// </summary>
         public DepthStencilView ZBufferView { get { return _zbufferView; } }
 
-
         /// <summary>
         /// Init all object to start rendering
         /// </summary>
@@ -126,10 +125,6 @@ namespace SharpHelper
             //Resize all items
             Resize();
         }
-
-
-
-
 
         /// <summary>
         /// Create and Resize all items
@@ -221,9 +216,6 @@ namespace SharpHelper
         {
             SwapChain.Present(0, PresentFlags.None);
         }
-
-
-
 
         /// <summary>
         /// Set current rasterizer state to default
